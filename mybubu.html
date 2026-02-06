@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For My Love ❤️</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+body{
+margin:0;
+padding:0;
+background:linear-gradient(270deg,#ff758c,#ff7eb3,#ffb6c1);
+background-size:600% 600%;
+animation:bgMove 15s ease infinite;
+font-family:Arial,sans-serif;
+text-align:center;
+color:white;
+overflow-y:auto;
+}
+
+@keyframes bgMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+.container{
+padding:40px 15px;
+position:relative;
+z-index:2;
+}
+
+.section{display:none;}
+
+/* Heart */
+.heart{
+font-size:90px;
+margin-top:40px;
+animation:loveBeat 1.5s infinite;
+text-shadow:0 0 25px #ff1e56;
+}
+
+@keyframes loveBeat{
+0%{transform:scale(1);}
+50%{transform:scale(1.4);}
+100%{transform:scale(1);}
+}
+
+/* Boom */
+.boom-text{
+font-size:32px;
+font-weight:bold;
+margin-top:15px;
+animation:boom 1s ease-out;
+text-shadow:0 0 20px #ff0055;
+}
+
+@keyframes boom{
+0%{transform:scale(0);opacity:0;}
+70%{transform:scale(1.3);}
+100%{transform:scale(1);}
+}
+
+/* Countdown */
+.countdown{
+font-size:70px;
+font-weight:bold;
+margin-top:40px;
+text-shadow:0 0 25px #fff;
+}
+
+/* Kiss */
+.kiss{
+font-size:90px;
+margin-top:30px;
+animation:boom 1s ease-out;
+}
+
+/* Hearts */
+.heart-fly{
+position:fixed;
+font-size:22px;
+animation:fly 5s linear forwards;
+pointer-events:none;
+opacity:.9;
+}
+
+@keyframes fly{
+0%{transform:translateY(0) scale(1);opacity:1;}
+100%{transform:translateY(-700px) scale(.3);opacity:0;}
+}
+
+p{
+font-size:18px;
+line-height:1.7;
+margin-top:20px;
+text-shadow:0 0 5px rgba(255,255,255,.3);
+}
+
+button{
+margin-top:25px;
+padding:12px 30px;
+border:none;
+border-radius:30px;
+background:linear-gradient(to right,#ff416c,#ff4b2b);
+color:white;
+font-size:16px;
+cursor:pointer;
+box-shadow:0 0 15px rgba(255,0,80,.6);
+transition:.3s;
+}
+
+button:hover{
+transform:scale(1.1);
+box-shadow:0 0 25px rgba(255,0,80,1);
+}
+
+footer{
+margin-top:40px;
+font-size:26px;
+font-family:'Great Vibes',cursive;
+text-shadow:0 0 15px rgba(255,255,255,.8);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- STEP 1 -->
+<div id="step1" class="section" style="display:block;">
+<div class="heart">❤️</div>
+<div id="boomText" style="display:none;" class="boom-text">
+💖 Happiest Birthday Mera Baccha 🎂❤️
+</div>
+</div>
+
+<!-- STEP 2 -->
+<div id="step2" class="section">
+<div id="countdown" class="countdown">10</div>
+</div>
+
+<!-- STEP 3 -->
+<div id="step3" class="section">
+<div class="kiss">😘</div>
+</div>
+
+<!-- STEP 4 : MAIN LOVE -->
+<div id="step4" class="section">
+
+<h1>🎂 Happy Birthday Meri Jaan 💖</h1>
+
+<p>
+Meri pyaari si jaan 😘❤️<br><br>
+
+Tu meri zindagi ka sabse khoobsurat hissa hai 💕<br>
+Teri ek muskaan se mera din ban jaata hai 😍<br><br>
+
+Tu mere liye wo khushi hai<br>
+jo main puri duniya se chheen kar<br>
+tujhe dena chahta hoon 🥺💖<br><br>
+
+Shri Hanumanji aur Shri Hari<br>
+tujhe saare sukh, pyaar aur khushiyaan dein 🙏✨<br>
+Tu hamesha hasti rahe, chamakti rahe 🌸<br><br>
+</p>
+
+<p>
+Tu meri aadat hai, meri dua hai 💕<br>
+Tere bina mera din adhoora lagta hai 🥺❤️<br>
+Tu meri zindagi ka sabse khoobsurat tohfa hai 🎁💖
+</p>
+
+<p>
+Main wada karta hoon jaan 🤞❤️<br>
+Har mushkil me tera saath dunga 💕<br>
+Har aansu tera apna bana lunga 😘💖
+</p>
+
+<p>
+Raat ko jab tu yaad aati hai 🌙✨<br>
+Dil bas tera naam leta hai ❤️<br>
+Tu meri rooh me basi hai 💖
+</p>
+
+<p>
+Main duniya ka sabse lucky banda hoon 🍀❤️<br>
+Kyuki mujhe tu mili 😘💕
+</p>
+
+<p>
+Meri Bubu 😘🧸<br>
+Tu meri baby hai, meri jaan hai 💖<br>
+Tera pyaar meri taqat hai ❤️
+</p>
+
+<p>
+Har janam me sirf tu 💖<br>
+Sirf meri, sirf meri jaan 🥰
+</p>
+
+<button onclick="showSorry()">Next 💌</button>
+</div>
+
+<!-- STEP 5 : SORRY -->
+<div id="step5" class="section">
+
+<p>
+😔❤️ Sorry jaan…<br><br>
+
+Maine tujhe kal raat me<br>
+tere birthday ke shuru hote hi rula diya 😢<br><br>
+
+Main tujhe dukh dena nahi chahta tha 😔<br>
+Mera intention sirf tujhe accha dekhna tha 💕<br><br>
+
+Bubu please mujhe maaf kar de 🥺❤️
+</p>
+
+<button onclick="showLove()">Next 💖</button>
+</div>
+
+<!-- STEP 6 : LOVE -->
+<div id="step6" class="section">
+
+<p>
+💖 I Love You So Much Jaan 💖<br><br>
+
+Tu hamesha khush reh 😘<br>
+Tu hamesha meri reh baccha 🥰<br><br>
+
+Teri saari wishes poori ho ✨💞<br>
+Main hamesha tujhe pyaar karta rahun ❤️
+</p>
+
+<button onclick="restart()">Finish 💕</button>
+
+</div>
+
+<footer>
+Made by Hishu for his 2nd Mother 💖
+</footer>
+
+</div>
+
+<script>
+
+let num=10;
+let heartInterval;
+
+/* START */
+function startAll(){
+
+document.querySelectorAll(".section").forEach(s=>{
+s.style.display="none";
+});
+
+step1.style.display="block";
+boomText.style.display="none";
+num=10;
+countdown.innerText="10";
+
+setTimeout(()=>{
+boomText.style.display="block";
+},1200);
+
+setTimeout(()=>{
+step1.style.display="none";
+step2.style.display="block";
+startCountdown();
+},3000);
+}
+
+/* COUNTDOWN */
+function startCountdown(){
+
+let timer=setInterval(()=>{
+
+num--;
+countdown.innerText=num;
+
+if(num===0){
+
+clearInterval(timer);
+
+step2.style.display="none";
+step3.style.display="block";
+
+startHearts();
+
+setTimeout(()=>{
+step3.style.display="none";
+step4.style.display="block";
+},2500);
+}
+},700);
+}
+
+/* HEARTS */
+function startHearts(){
+
+heartInterval=setInterval(()=>{
+
+let h=document.createElement("div");
+h.className="heart-fly";
+h.innerText="💖";
+
+h.style.left=Math.random()*100+"vw";
+h.style.bottom="0px";
+
+document.body.appendChild(h);
+
+setTimeout(()=>{
+h.remove();
+},5000);
+
+},250);
+}
+
+/* BUTTONS */
+function showSorry(){
+step4.style.display="none";
+step5.style.display="block";
+}
+
+function showLove(){
+step5.style.display="none";
+step6.style.display="block";
+}
+
+/* RESTART */
+function restart(){
+
+clearInterval(heartInterval);
+document.querySelectorAll(".heart-fly").forEach(h=>h.remove());
+
+window.scrollTo(0,0);
+
+startAll();
+}
+
+/* AUTO START */
+startAll();
+
+</script>
+
+</body>
+</html>
